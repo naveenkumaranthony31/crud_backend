@@ -12,7 +12,7 @@ var ObjectId=require('mongodb').ObjectId;
 app.use(express.json());
 app.use(
   cors({
-    origin: "*",
+    origin: "http://localhost:3000",
   })
 );
 
