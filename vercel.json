@@ -2,9 +2,9 @@
     "version": 2,
     "name": "Adim Portal",
     "builds": [
-       { "crud_backend": "index.js", "use": "@vercel/node" }
+       { "src": "index.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "crud_backend": "/(.*)", "dest": "/index.js" }
+       { "src": "/(.*)", "dest": "/index.js" }
     ]
  }
