@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const mongodb = require("mongodb");
+// const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
 const cors = require("cors");
 const dotenv = require("dotenv").config();
