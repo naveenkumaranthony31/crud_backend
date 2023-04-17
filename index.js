@@ -12,7 +12,7 @@ var ObjectId=require('mongodb').ObjectId;
 app.use(express.json());
 app.use(
   cors({
-    origin: "*",
+    origin: "http://localhost:3000"
   })
 );
 
@@ -97,4 +97,4 @@ app.delete("/users/:id", async function (request, response) {
 
 
 
-app.listen((process.env.PORT || 3001));
+app.listen((process.env.PORT || 4000));
